@@ -37,12 +37,17 @@ Follow the process described in the course to `eb init` a new application and `e
 
 If you're feeling up to it, refactor the course RESTapi to make a request to your newly provisioned image server.
 
-### Authentication
+### Check image url to confirm is valid image type
+
+Given our [sample spec](https://timedotcom.files.wordpress.com/2019/03/kitten-report.jpg) links to a 403 page, I added functionality in utils.ts and auth.router.ts to catch and display errors related to links that are not parseable.
+
+
+### Authentication (not done)
 
 Prevent requests without valid authentication headers.
 > !!NOTE if you choose to submit this, make sure to add the token to the postman collection and export the postman collection file to your submission so we can review!
 
-### Custom Domain Name
+### Custom Domain Name (not done)
 
 Add your own domain name and have it point to the running services (try adding a subdomain name to point to the processing server)
 > !NOTE: Domain names are not included in AWS’ free tier and will incur a cost.
